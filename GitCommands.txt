@@ -8,5 +8,7 @@ git rm --cached <fileName> -> Remove the. file from staging area if added.
 git branch -M <branchName> -> Rename current branch
 git push origin main -> uploads that branch to GitHub.
 git remote -> check your origin name
-git tag -> view the version tags
+git tag -> view the version created using tags.
 git tag -a <version number> -m "commit message" -> Add a Annotated tag to releases.
+git show <tag name> -> view information about the tags
+git push origin <tag name> -> uploads the tag to GitHub.
