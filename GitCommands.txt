@@ -1,0 +1,3 @@
+#git init - initializes a new git repo.
+git add - Adds the file to staging area
+git commit -m "commit message" - Commits the code to specific branch
