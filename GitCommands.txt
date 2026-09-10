@@ -10,3 +10,5 @@ git push origin main -> uploads that branch to GitHub.
 git remote -> check your origin name
 git tag -> view the version tags
 git tag -a <version number> -m "commit message" -> Add a Annotated tag to releases.
+git pull -> pulls all the latest data from the github repo(includes new branches and changes).
+git checkout <branch name> -> switches to a different branch.
