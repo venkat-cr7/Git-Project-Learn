@@ -1,6 +1,7 @@
 #git init -> initializes a new git repo.
-git add -> Adds the file to staging area
+git add <fileName>-> Adds the file to staging area
 git commit -m "commit message" -> Commits the code to specific branch
 git commit -a -m "commit message" -> Commits changes without adding to staging area
 git diff -> checks/tracks the changes happend on the file.(checks files on working directory)
 git diff --stages --> checks/tracks changes happend on the file.(checks files which are staged)
+git rm --cached <fileName> --> Remove the. file from staging area if added.
