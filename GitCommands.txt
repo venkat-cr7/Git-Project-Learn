@@ -6,4 +6,7 @@ git diff -> checks/tracks the changes happend on the file.(checks files on worki
 git diff --stages --> checks/tracks changes happend on the file.(checks files which are staged)
 git rm --cached <fileName> -> Remove the. file from staging area if added.
 git branch -M <branchName> -> Rename current branch
-git push -u origin main -> uploads that branch to GitHub and connects the two branches.
+git push origin main -> uploads that branch to GitHub.
+git remote -> check your origin name
+git tag -> view the version tags
+git tag -a <version number> -m "commit message" -> Add a Annotated tag to releases.
