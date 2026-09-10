@@ -1,0 +1,2 @@
+user.name=vp001
+user.pass=@#er34
