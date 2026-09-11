@@ -17,3 +17,4 @@ git checkout <branchName> / git switch <branchName? -> switched to a specified b
 git branch -> View all branch in local git.
 git branch --all -> view all branches including local and remote.
 git branch -d <branchName> -> deletes the specified branch.
+git merge <dev-branchName> -> Merges the code from new dev branch to current branch.
