@@ -1,14 +1,19 @@
 #git init -> initializes a new git repo.
-git add <fileName>-> Adds the file to staging area
+git add <fileName> -> Adds the file to staging area
 git commit -m "commit message" -> Commits the code to specific branch
 git commit -a -m "commit message" -> Commits changes without adding to staging area
 git diff -> checks/tracks the changes happend on the file.(checks files on working directory)
-git diff --stages --> checks/tracks changes happend on the file.(checks files which are staged)
+git diff --stages -> checks/tracks changes happend on the file.(checks files which are staged)
 git rm --cached <fileName> -> Remove the. file from staging area if added.
 git branch -M <branchName> -> Rename current branch
-git push origin main -> uploads that branch to GitHub.
+git push origin <branchName> -> uploads that branch to GitHub.
 git remote -> check your origin name
 git tag -> view the version created using tags.
 git tag -a <version number> -m "commit message" -> Add a Annotated tag to releases.
 git show <tag name> -> view information about the tags
 git push origin <tag name> -> uploads the tag to GitHub.
+git checkout -b <branchName> / git switch -c <branchName> -> creates a new branch out of current branch.
+git checkout <branchName> / git switch <branchName? -> switched to a specified branch.
+git branch -> View all branch in local git.
+git branch --all -> view all branches including local and remote.
+git branch -d <branchName> -> deletes the specified branch.

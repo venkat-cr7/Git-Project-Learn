@@ -4,3 +4,10 @@ Adding second line in First file.
 #git init - initializes a new git repo.
 git add - Adds the file to staging area
 git commit -m "commit message" - Commits the code to specific branch
+
+#Setting up SSH
+
+1. in local machine git use -> ssh key-gen -o
+2. Find the saved key from local machine.
+3. Configure that in GitHub Setting SSH.
+4. To add you github to local git use -> git remote add origin git@github.com:venkat-cr7/Git-Project-Learn.git
